@@ -1,0 +1,56 @@
+ $seqpar
+ seq='SE Rosette MRSI'
+ echot=8.5
+ fwhmba=.016
+ $end
+
+ $nmall
+ hzpppm=123.19877
+ deltat=0.00025000
+ nunfil=4096
+ filbas='/mnt/c/Users/divya/Downloads/mrsi_pipeline/basis_te8p5/RosettePhantom_LacAceCrCho_TE8p5.basis'
+ filps='/mnt/c/Users/divya/Downloads/mrsi_pipeline/basis_te8p5/RosettePhantom_LacAceCrCho_TE8p5.ps'
+ autosc=.false.
+ autoph=.false.
+ idbasi='rosette phantom Lac/Ace/Cr/Cho TE8.5'
+ $end
+
+ $nmeach
+ filraw='/mnt/c/Users/divya/Downloads/mrsi_pipeline/basis_te8p5/raw/Lac.RAW'
+ metabo='Lac'
+ degzer=0.
+ degppm=0.
+ conc=1.
+ noshif=.true.
+ ppmapp=.4, -.4
+ $end
+
+ $nmeach
+ filraw='/mnt/c/Users/divya/Downloads/mrsi_pipeline/basis_te8p5/raw/Act.RAW'
+ metabo='Act'
+ degzer=0.
+ degppm=0.
+ conc=1.
+ noshif=.true.
+ ppmapp=.4, -.4
+ $end
+
+ $nmeach
+ filraw='/mnt/c/Users/divya/Downloads/mrsi_pipeline/basis_te8p5/raw/Cr.RAW'
+ metabo='Cr'
+ degzer=0.
+ degppm=0.
+ conc=1.
+ noshif=.true.
+ ppmapp=.4, -.4
+ $end
+
+ $nmeach
+ filraw='/mnt/c/Users/divya/Downloads/mrsi_pipeline/basis_te8p5/raw/Cho.RAW'
+ metabo='Cho'
+ degzer=0.
+ degppm=0.
+ conc=1.
+ noshif=.true.
+ ppmapp=.4, -.4
+ $end

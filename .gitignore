@@ -1,0 +1,60 @@
+# caches
+__pycache__/
+*.pyc
+*.pyo
+
+# data / intermediates
+*.npz
+*.npy
+*.mat
+*.dat
+*.nii
+*.nii.gz
+*.RAW
+*.raw
+*.basis
+*.coord
+*.csv
+*.ps
+*.table
+
+# logs / scratch
+*.log
+scratch_*
+
+# generated stage / output / lcmodel dirs
+lcm_*/
+out_*/
+diag_*/
+gt_*/
+fida_stages*/
+fida_lcm_*/
+fida_maps_*/
+rosette_*stages*/
+rosette_ref_stages/
+rosette_matlab_stages/
+apodize_probe/
+viz_out*/
+nifti_mrs_out/
+osprey_*/
+spec2nii_out/
+matlab_deps/
+
+# inner duplicate (deferred cleanup)
+mrsi_pipeline/
+
+# vendored third-party
+readers/tarquin-*/
+*.bak.m
+
+fort.*
+
+# stray root diagnostics
+/*.png
+
+# local LCModel license key (never commit)
+.lcmodel_key
+
+# keep DCF weight caches (small, trajectory-derived)
+!dcf_cache/
+!dcf_cache/*.npy
